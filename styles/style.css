@@ -5,8 +5,11 @@ body, html {
 }
 
 .bg {
-   
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,6 +17,8 @@ body, html {
 }
 
 .container {
+    max-width: 600px;
+    padding: 20px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -21,12 +26,36 @@ body, html {
     text-align: center;
 }
 
-.coming-soon {
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.coming-soon h1 {
+    font-size: 24px;
     color: #343a40;
 }
 
-.countdown {
+.coming-soon span {
+    display: block;
+    font-size: 16px;
+    color: #6c757d;
+    margin-top: 10px;
+}
+
+.name-intro {
     margin-top: 20px;
-    font-size: 24px;
+}
+
+.name-intro h1 {
+    font-size: 32px;
+    color: #007bff;
+}
+
+.name-intro p {
+    font-size: 18px;
     color: #6c757d;
 }
