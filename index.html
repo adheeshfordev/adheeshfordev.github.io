@@ -5,81 +5,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adheesh Lekha Prabhakaran's Portfolio</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <meta name="description" content="Adheesh Lekha Prabhakaran's portfolio showcasing full-stack web development projects and expertise.">
+    <meta name="keywords" content="Adheesh Lekha Prabhakaran, Full-Stack Developer, Web Developer, Portfolio">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
     <link href="/styles/style.css" rel="stylesheet">
 </head>
 
 <body>
-
-    <div class="bg">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
-
-            <div class="personal">
-                <img src="/images/adheeshlp.jpg" alt="Adheesh Lekha Prabhakaran" class="profile-pic">
-
-                <div class="name-intro">
-                    <h1>Adheesh Lekha Prabhakaran</h1>
-                    <p>Full-Stack Web Developer | Passionate about building user-friendly web applications</p>
-                    <p>15 years of experience working on both frontend and backend</p>
-                    <div class="social-links">
-                        <a href="https://github.com/adheeshfordev" target="_blank"
-                            class="btn btn-outline-dark btn-sm mx-2">
-                            <i class="fab fa-github"></i> GitHub
-                        </a>
-                        <a href="https://www.linkedin.com/in/adheeshlp" target="_blank"
-                            class="btn btn-outline-primary btn-sm mx-2">
-                            <i class="fab fa-linkedin"></i> LinkedIn
-                        </a>
-                        <div class="mt-3">
-                            <a href="/documents/AdheeshLekhaPrabhakaran_CV.pdf" download class="btn btn-primary btn-sm">
-                                <i class="fas fa-download"></i> Download My CV
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <a class="navbar-brand" href="#">Adheesh Prabhakaran</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <div class="projects">
-                <h2 class="text-center">Featured Projects</h2>
-                <p>While some of my most impactful work is behind the scenes or for private companies under NDA, here are
-                    some works I did as a freelancer.</p>
-                <div class="row">
-                    <div class="col-md-6 col-xs-12 mt-4">
-                        <div class="project-card">
-                            <a href="https://pazzo.in/">
-                                <img src="/images/pazzo.png" alt="Pazzo" class="project-img">
-                                <h3>Pazzo</h3>
-                            </a>
-                            <p>Bag store in India.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12 mt-4">
-                        <div class="project-card">
-                            <a href="http://celciusinteriors.ae/">
-                                <img src="/images/celciusinteriors.png" alt="Celcius Interiors" class="project-img">
-                                <h3>Celcius Interiors</h3>
-                            </a>
-                            <p>Celcius Interiors is an interior fittings company working out of Dubai.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12 mt-4">
-                        <div class="project-card">
-                            <a href="https://baitalzainmandi.com/">
-                                <img src="/images/baitalzain.png" alt="Bait AL Zain Mandi" class="project-img">
-                                <h3>Bait Al Zain Mandi</h3>
-                            </a>
-                            <p>Bait Al Zain Mandi is a restaurant that mainly serves Arabic Food.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
-    </div>
+    </nav>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Hero Section -->
+    <header class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <img src="/images/adheeshlp.jpg" alt="Adheesh Lekha Prabhakaran" class="rounded-circle profile-pic mb-3" width="150">
+            <h1>Adheesh Lekha Prabhakaran</h1>
+            <p class="lead">Full-Stack Web Developer | Passionate about building user-friendly web applications</p>
+            <p>15 years of experience working on both frontend and backend</p>
+            <div class="social-links mb-3">
+                <a href="https://github.com/adheeshfordev" target="_blank" class="btn btn-outline-light btn-sm mx-2">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/adheeshlp" target="_blank" class="btn btn-outline-light btn-sm mx-2">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+            <a href="/documents/AdheeshLekhaPrabhakaran_CV.pdf" download class="btn btn-primary btn-sm">
+                <i class="fas fa-download"></i> Download My CV
+            </a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <p>
+                I am a full-stack web developer with over 15 years of experience in the tech industry. My expertise
+                lies in creating user-friendly, responsive web applications using the latest technologies. I have
+                worked on various projects ranging from small freelance work to complex applications for private
+                companies under NDA. I am passionate about continuous learning and finding creative solutions to
+                technical challenges.
+            </p>
+            <p>
+                Beyond coding, I enjoy collaborating with cross-functional teams and contributing to every phase of
+                product development. My work has allowed me to hone my skills in backend and frontend development,
+                with a strong focus on user experience and performance optimization.
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Featured Projects</h2>
+            <p class="text-center mb-4">While some of my most impactful work is behind the scenes or for private
+                companies under NDA, here are some of my freelance projects that showcase my skills.</p>
+            <div class="row">
+                <div class="col-md-6 col-xs-12 mb-4">
+                    <div class="card project-card h-100">
+                        <a href="https://pazzo.in/">
+                            <img src="/images/pazzo.png" alt="Pazzo" class="card-img-top project-img">
+                            <div class="card-body">
+                                <h3 class="card-title">Pazzo</h3>
+                                <p class="card-text">An online bag store based in India. I developed the frontend and
+                                    backend systems, integrating secure payment gateways and ensuring a smooth user
+                                    experience.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12 mb-4">
+                    <div class="card project-card h-100">
+                        <a href="http://celciusinteriors.ae/">
+                            <img src="/images/celciusinteriors.png" alt="Celcius Interiors" class="card-img-top project-img">
+                            <div class="card-body">
+                                <h3 class="card-title">Celcius Interiors</h3>
+                                <p class="card-text">A Dubai-based interior fittings company. I worked on their website
+                                    redesign, optimizing the site for mobile responsiveness and enhancing the booking
+                                    system.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12 mb-4">
+                    <div class="card project-card h-100">
+                        <a href="https://baitalzainmandi.com/">
+                            <img src="/images/baitalzain.png" alt="Bait AL Zain Mandi" class="card-img-top project-img">
+                            <div class="card-body">
+                                <h3 class="card-title">Bait Al Zain Mandi</h3>
+                                <p class="card-text">A restaurant specializing in Arabic cuisine. I handled the
+                                    development of their online ordering system, improving the customer experience
+                                    with a user-friendly interface.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Get in Touch</h2>
+            <p class="text-center">Feel free to reach out to me for any collaboration, job opportunities, or just to
+                say hi!</p>
+            <div class="d-flex justify-content-center">
+                <a href="mailto:adheeshforjobs@gmail.com" class="btn btn-outline-dark mx-2">
+                    <i class="fas fa-envelope"></i> Email Me
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Adheesh Lekha Prabhakaran. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
